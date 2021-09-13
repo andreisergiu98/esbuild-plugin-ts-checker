@@ -1,0 +1,50 @@
+{
+	"name": "esbuild-plugin-watch-types",
+	"version": "1.0.0",
+	"license": "MIT",
+	"description": "Esbuild plugin that runs TypeScript on a separate process and prints type errors to the console",
+	"author": {
+		"name": "Andrei Pampu",
+		"url": "https://github.com/andreisergiu98"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:andreisergiu98/esbuild-plugin-watch-types.git"
+	},
+	"bugs": {
+		"url": "https://github.com/andreisergiu98/esbuild-plugin-watch-types/issues"
+	},
+	"homepage": "https://github.com/andreisergiu98/esbuild-plugin-watch-types",
+	"keywords": [
+		"esbuild",
+		"types",
+		"typescript"
+	],
+	"main": "lib/index.js",
+	"types": "lib/index.d.ts",
+	"files": [
+		"lib"
+	],
+	"scripts": {
+		"build": "rm -rf lib && tsc",
+		"lint": "eslint . --ext .ts",
+		"pretty": "prettier --write ."
+	},
+	"dependencies": {
+		"chalk": "^4.1.2",
+		"tslib": "^2.3.1"
+	},
+	"devDependencies": {
+		"@types/node": "^16.9.1",
+		"@typescript-eslint/eslint-plugin": "^4.31.0",
+		"@typescript-eslint/parser": "^4.31.0",
+		"esbuild": "^0.12.26",
+		"eslint": "^7.32.0",
+		"prettier": "^2.4.0",
+		"typescript": "^4.4.3"
+	},
+	"peerDependencies": {
+		"esbuild": "^0.12.0",
+		"typescript": "^4.0.0"
+	}
+}

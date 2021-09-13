@@ -1,0 +1,44 @@
+{
+	"parser": "@typescript-eslint/parser",
+	"plugins": ["@typescript-eslint"],
+	"extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended"],
+	"env": {
+		"es2020": true,
+		"node": true
+	},
+	"parserOptions": {
+		"sourceType": "module",
+		"project": "tsconfig.json"
+	},
+	"ignorePatterns": ["/lib/**"],
+	"rules": {
+		"@typescript-eslint/array-type": ["error", { "default": "array-simple" }],
+		"@typescript-eslint/ban-ts-comment": "warn",
+		"@typescript-eslint/consistent-type-assertions": "error",
+		"@typescript-eslint/consistent-type-definitions": "error",
+		"@typescript-eslint/explicit-member-accessibility": [
+			"error",
+			{
+				"accessibility": "no-public"
+			}
+		],
+		"@typescript-eslint/explicit-module-boundary-types": "off",
+		"@typescript-eslint/naming-convention": "error",
+		"@typescript-eslint/no-explicit-any": "error",
+		"@typescript-eslint/semi": ["error", "always"],
+		"camelcase": "error",
+		"default-case": "error",
+		"eqeqeq": ["error", "smart"],
+		"guard-for-in": "error",
+		"new-parens": "error",
+		"no-caller": "error",
+		"no-new-wrappers": "error",
+		"no-return-await": "warn",
+		"no-throw-literal": "error",
+		"no-underscore-dangle": "error",
+		"no-unused-expressions": "warn",
+		"no-var": "error",
+		"object-shorthand": "warn",
+		"prefer-const": "warn"
+	}
+}
