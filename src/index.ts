@@ -1,5 +1,5 @@
 export {
 	esbuildWatchTypes as default,
-	esbuildWatchTypes as esbuildTypechecking,
+	esbuildWatchTypes,
 	EsbuildTypeCheckOptions,
 } from './plugin';

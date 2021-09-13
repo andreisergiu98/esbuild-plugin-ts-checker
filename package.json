@@ -1,6 +1,6 @@
 {
 	"name": "esbuild-plugin-watch-types",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"license": "MIT",
 	"description": "Esbuild plugin that runs TypeScript on a separate process and prints type errors to the console",
 	"author": {
