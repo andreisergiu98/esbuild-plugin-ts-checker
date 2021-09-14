@@ -1,20 +1,20 @@
 {
-	"name": "esbuild-plugin-watch-types",
-	"version": "1.0.1",
+	"name": "esbuild-plugin-ts-checker",
+	"version": "1.0.0",
 	"license": "MIT",
-	"description": "Esbuild plugin that runs TypeScript on a separate process and prints type errors to the console",
+	"description": "Esbuild plugin that runs TypeScript on a separate process",
 	"author": {
 		"name": "Andrei Pampu",
 		"url": "https://github.com/andreisergiu98"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git@github.com:andreisergiu98/esbuild-plugin-watch-types.git"
+		"url": "git@github.com:andreisergiu98/esbuild-plugin-ts-checker.git"
 	},
 	"bugs": {
-		"url": "https://github.com/andreisergiu98/esbuild-plugin-watch-types/issues"
+		"url": "https://github.com/andreisergiu98/esbuild-plugin-ts-checker/issues"
 	},
-	"homepage": "https://github.com/andreisergiu98/esbuild-plugin-watch-types",
+	"homepage": "https://github.com/andreisergiu98/esbuild-plugin-ts-checker",
 	"keywords": [
 		"esbuild",
 		"types",
